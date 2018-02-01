@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<litepal>
+    <dbname value="task" />
+
+    <version value="1"/>
+
+    <list>
+        <mapping class="vetoer.top.customcalendar.db.Event" />
+    </list>
+</litepal>

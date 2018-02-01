@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="customCalendar_currentDay_bg_DashPath">
+        <item>8</item>
+        <item>8</item>
+        <item>8</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+    </array>
+    <array name="color_array">
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Red</item>
+        <item>透明</item>
+    </array>
+</resources>

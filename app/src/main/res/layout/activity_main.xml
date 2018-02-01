@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:vetoer="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <vetoer.top.customcalendar.CustomCalendar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cal"
+
+            vetoer:mMonthRowL="@drawable/custom_calendar_row_left"
+            vetoer:mMonthRowR="@drawable/custom_calendar_row_right"
+            vetoer:mMonthRowSpac="20dip"
+
+            vetoer:mTextSizeMonth="20sp"
+            vetoer:mTextSizeWeek="17sp"
+            vetoer:mTextSizeDay="17sp"
+            vetoer:mTextSizePre="10sp"
+
+            vetoer:mTextColorMonth="#4b4b4b"
+            vetoer:mTextColorWeek="#9e9e9d"
+            vetoer:mSelectWeekTextColor="#f67633"
+            vetoer:mTextColorDay="#686768"
+            vetoer:mTextColorPreFinish="#fc7451"
+            vetoer:mTextColorPreUnFinish="#60ba8d"
+            vetoer:mTextColorPreNull="#cecdcd"
+            vetoer:mSelectTextColor="#ffffff"
+
+            vetoer:mMonthSpac="10dip"
+            vetoer:mLineSpac="12dip"
+            vetoer:mTextSpac="8dip"
+
+            vetoer:mCurrentBg="#6E6E6E"
+            vetoer:mCurrentBgStrokeWidth="1.5dip"
+            vetoer:mCurrentBgDashPath="@array/customCalendar_currentDay_bg_DashPath"
+            vetoer:mSelectBg="#fe7f5c"
+            vetoer:mSelectRadius="15dip"/>
+    </LinearLayout>
+
+
+</ScrollView>
